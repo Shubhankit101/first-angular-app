@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { HeaderComponent } from "./header.component";
+import { HeaderComponent } from "./header/header.component";
 
 
 //Decorator : TypeScript feature which that in the end adds some metadata to the thing its attached to 
