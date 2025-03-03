@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { HeaderComponent } from "./header/header.component";
+import { UserComponent } from "./user/user.component";
 
 
 //Decorator : TypeScript feature which that in the end adds some metadata to the thing its attached to 
@@ -7,7 +8,7 @@ import { HeaderComponent } from "./header/header.component";
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [HeaderComponent],
+  imports: [HeaderComponent, UserComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
